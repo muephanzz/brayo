@@ -44,7 +44,7 @@ export function WishMessage() {
 
       {wishes.map((wish) => (
         <div key={wish.id} className="bg-white shadow-md rounded-lg p-4 mb-4">
-          <p className="text-xl font-bold">{wish.name}</p>
+          <p className="text-xl mb-2 font-bold">{wish.name}</p>
           <p className="text-gray-700">{wish.message}</p>
           <p className="text-sm text-gray-500">{new Date(wish.created_at).toLocaleString()}</p>
         </div>

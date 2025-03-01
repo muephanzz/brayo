@@ -1,7 +1,6 @@
 // src/pages/wishes.js
 import { useEffect, useState } from 'react';
 import { createClient } from '@supabase/supabase-js';
-import { TiktokEmbed } from '../components/TiktokEmbed';
 
 const supabase = createClient(
   process.env.NEXT_PUBLIC_SUPABASE_URL,
@@ -77,8 +76,6 @@ export default function WishesPage() {
     </div>
 
   </div>
-  
-  <TiktokEmbed />
 
       {/* Embedded YouTube Video */}
       <div className="flex justify-center mb-12">
