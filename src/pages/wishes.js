@@ -38,13 +38,23 @@ export default function WishesPage() {
     <main className="min-h-screen bg-gradient-to-br from-yellow-300 to-pink-400 p-8">
       {/* Birthday Person Image */}
       <div className="flex flex-col items-center mb-8">
+      <h1 className="text-2xl mb-4 font-extrabold mt-4 text-center">🎉 Happy Birthday Brian Munyaka (Brayo)! 5 year Now 🎂</h1>
+        <div className='flex justify-center gap-6'>
+        <div className='flex justify-center gap-6'>
+        <img
+          src="/brayo1.jpg" // Ensure the image is in the /public folder
+          alt="Birthday Person"
+          className="w-60 h-60 object-cover  shadow-lg "
+        />
         <img
           src="/brayo.jpg" // Ensure the image is in the /public folder
           alt="Birthday Person"
-          className="w-60 h-60 object-cover rounded-full shadow-lg animate-pulse"
+          className="w-60 h-60 object-cover  shadow-lg "
         />
-        <h1 className="text-2xl font-extrabold mt-4 text-center">🎉 Happy Birthday Brian Munyaka (Brayo)! 5 year Now 🎂</h1>
-      </div>
+        </div>
+        </div>
+        <h1 className="text-2xl font-extrabold mt-4 text-center">May This Day be filled with Joy, Love and Blessings that comes from the Most High God 🎂</h1>
+
 
         {/* Animated Decorations */}
   <div className="flex justify-center gap-6 mt-8 animate-bounce">
@@ -64,22 +74,7 @@ export default function WishesPage() {
       className="w-32 h-32 object-contain animate-wiggle"
     />
     </div>
-    <div className='flex justify-center gap-6 mt-8'>
-    <img
-      src="/brayo1.jpg"
-      alt="Party"
-      className="w-32 h-32 object-contain animate-jump"
-    />
-    <img
-      src="/brayo2.jpg"
-      alt="Party"
-      className="w-32 h-32 object-contain animate-jump"
-    />
-    <img
-      src="/brayo3.jpg"
-      alt="Stars"
-      className="w-32 h-32 mb-8 object-contain animate-twinkle"
-    />
+
   </div>
 
 

@@ -35,20 +35,20 @@ export function WishForm({ onSubmit }) {
   };
 
   return (
-    <form onSubmit={handleSubmit} className="p-4 bg-white rounded-lg shadow-lg">
+    <form onSubmit={handleSubmit} className="p-4 bg-white rounded-lg shadow-lg text-black">
       <h2 className="text-2xl font-bold mb-4">Send a Birthday Wish 🎉</h2>
       <input
         type="text"
         placeholder="Your Name"
         value={name}
         onChange={(e) => setName(e.target.value)}
-        className="w-full p-2 mb-4 border rounded"
+        className="w-full p-2 mb-4 border rounded bg-white text-black"
       />
       <textarea
         placeholder="Your Birthday Message"
         value={message}
         onChange={(e) => setMessage(e.target.value)}
-        className="w-full p-2 mb-4 border rounded"
+        className="w-full p-2 mb-4 border rounded bg-white text-black"
       />
       <button
         type="submit"
